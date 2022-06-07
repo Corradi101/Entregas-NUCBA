@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: grey;
+}
+
+a {
+  text-decoration: none;
+}
+
+.caja {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  gap: 5rem;
+  color:rgb(238, 241, 22) ;
+  background-color: red;
+  width: 70%;
+  max-width: 7000px;
+  margin: 0 auto;
+}
+
+.caja_text {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.caja_text p {
+  max-width: 500px;
+}
+
+.text__btns {
+  margin-top: 1rem;
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  border: 4px solid rgb(2, 42, 73);
+  padding: 1rem 5rem;
+  border-radius: 80px;
+  -webkit-border-radius: 80px;
+  -moz-border-radius: 80px;
+  -ms-border-radius: 80px;
+  -o-border-radius: 80px;
+  font-weight: 600;
+}
+
+.btn__cta {
+  background: rgb(146, 140, 140);
+  color: white;
+}
+
+.btn__more {
+  background-color: white;
+  color: rgb(146, 140, 140);
+}
+
+.montana_img{
+  width: auto;
+  height: auto;
+}
+
+.cajita{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  gap: 5rem;
+  color: rgb(238, 241, 22);
+  background-color: blue;
+  width: 70%;
+  max-width: 7000px;
+  margin: 0 auto;
+
+}
+
