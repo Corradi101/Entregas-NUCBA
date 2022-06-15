@@ -1,113 +1,55 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  border: 1px solid red;
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-/*cuerpo*/
 body {
-  width: 100%;
-  max-width: 100%;
-  font-family: "Poppins", sans-serif;
+    width: 100vw;
+    max-width: 100%;
+    font-family: "poppins", sans-serif;
 }
 
 img{
-  width: 100%;
-  height: auto;
-}
-
-.info-card{
-  width: 40%;
-  margin-bottom: 2rem;
-}
-
-.carta {
-  display: flex ;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; 
- /*background-color:greenyellow;*/
-}
-
-
-/*header*/
-.titulo{
-  justify-content: center;
-  align-items:center;
-  display: flex;
-  flex-direction:row;
-  gap: 5rem;
-  margin-top: 5px;
+    width: 50%;
+    height: auto;
   }
 
-.h-titulo{
-  justify-content: center;
-  align-items:center;
-  display: flex;
-  flex-direction:row;
-  gap: 5rem;
-  margin-top: 5px;
+/*Header*/
+
+header{
+    background-color: gainsboro;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
 }
 
-/*main*/
-
-/*section_one*/
-
-/*.section_one{
-background-color: yellow;
-}*/
-
-.section_one p{
-  text-align: center;
-  text-transform: uppercase;
-  color: gray;
-  max-width: 300px;
-  margin: auto;
-}
+/* Section 1*/
 
 .card-container{
   display: flex;
-  flex-direction:center;
+  flex-direction: center;
   justify-content: center;
-  align-items:center;
-  gap: 5rem;
+  align-items: center;
 }
 
-
-/*section_two*/
-
-.section_two p{
-  text-align: center;
-  text-transform: uppercase;
-  color: gray;
-  max-width: 300px;
-  margin: auto;
+.card {
+padding: auto;
+width: 50%;
 }
+
+.card-container {
+flex-direction: row;
+}
+
+/* section 2 */
+
 .card-container_2{
   display: flex;
-  flex-direction:center;
+  flex-direction: center;
   justify-content: center;
-  align-items:center;
-  gap: 5rem;
-}
-
-.titulo_2{
-  justify-content: center;
-  align-items:center;
-  display: flex;
-  flex-direction: auto;
-  gap: 5rem;
-  margin-top: 10px;
-  }
-
-.h-titulo_2{
-  justify-content: center;
-  align-items:center;
-  display: flex;
-  flex-direction:auto;
-  gap: 5rem;
-  margin-top: 10px;
+  align-items: center;
 }

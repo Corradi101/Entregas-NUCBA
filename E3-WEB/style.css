@@ -22,7 +22,7 @@ a {
   height: 70vh;
   gap: 5rem;
   color:rgb(238, 241, 22) ;
-  background-color: red;
+  /*background-color: red;*/
   width: 70%;
   max-width: 7000px;
   margin: 0 auto;
@@ -41,7 +41,7 @@ a {
 .text__btns {
   margin-top: 1rem;
   display: flex;
-  gap: 10px;
+  gap: 5px;
 }
 
 .btn {
@@ -77,10 +77,20 @@ a {
   height: 70vh;
   gap: 5rem;
   color: rgb(238, 241, 22);
-  background-color: blue;
+  /*background-color: blue;*/
   width: 70%;
   max-width: 7000px;
   margin: 0 auto;
 
 }
 
+.montana_img {
+  display: block;
+  height: 70%;
+  width: 70%;
+  background: url("./img/montana.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 80px;
+}
