@@ -13,11 +13,6 @@ body {
     background-color: gray;
 }
 
-.img{
-    width: 100%;
-    height: 100%; 
-  }
-
 
 /*Header*/
 
@@ -35,9 +30,9 @@ header{
 /* Seccion 1 Descripcion */
 
 .description-section {
-    padding: 5rem 0;
+    padding: 5rem;
     max-width: auto;
-   /* background-color: red;*/
+    /*background-color: red;*/
   }
   
 .info-card {
@@ -45,30 +40,29 @@ header{
     margin-bottom: 2rem;
   }
   
-.card-container {
-    display: flex;
-    flex-direction:row;
-    justify-content: center;
-    align-items: center;
-    gap: 5rem;
-    width: auto;
-    margin: auto;
-    padding: 5rem 5rem;
-    border-radius: 1rem;
-  }
-  
-.card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+.card-container{
+  position: center;
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img{
+  height: auto;
+  width: auto;
+  max-width: 900px;
+  max-height: 900px;
+  border-radius: 3px;
+  margin: 10px;
+}
 
 
 /* Seccion 2 Descripcion */
 
 .description-section2 {
-    padding: 5rem 0;
+    padding: 10rem 0;
     max-width: auto;
     display: flex;
     justify-content: center;  
@@ -108,12 +102,12 @@ header{
    /*background-color: yellow;*/
   }
 
-  .titulo h1{
+  .description-section2 p{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    flex-direction: center;
-    text-align: center;
-    padding: 5px;
+    align-items: flex-start;
+    /*background-color: red;*/
   }
 
   footer{
